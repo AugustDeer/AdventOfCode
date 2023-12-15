@@ -1,6 +1,5 @@
 from functools import reduce
 import operator as op
-import numpy as np
 from collections import defaultdict
 
 def adjacent(x: int, y: int, width: int, height: int) -> list:
